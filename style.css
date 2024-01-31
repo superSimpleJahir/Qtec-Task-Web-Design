@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;800;900&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -41,25 +43,70 @@ a {
 }
 
 /*-------------------- nav section --------------------*/
-nav {
-  padding: 16px 0;
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
 }
 
-nav .flex {
-  gap: 30px;
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
 }
 
-nav .flex li a {
+.navbar {
+  width: 100%;
+  background: #fff;
+  color: #000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  order: 1;
+  font-size: 2.3rem;
+}
+
+.menu-items li {
+  margin-left: 1.5rem;
+}
+
+.navbar a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
   color: #4A556C;
   font-size: 15px;
   letter-spacing: -0.3px;
 }
 
-nav .btn a {
+.navbar .btn a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
   color: #FFF !important;
   font-size: 14px;
   font-weight: 600;
 }
+
+.navbar a:hover {
+  color: #117964;
+}
+
+
 
 /*-------------------- hero section --------------------*/
 #hero {
@@ -135,7 +182,7 @@ nav .btn a {
   width: 240px;
   background: #FFF;
   box-shadow: 0px 16px 96px 0px rgba(111, 124, 144, 0.16);
-  z-index: 9999;
+  z-index: 1;
 }
 
 .hero_right .hero_card img {
@@ -322,22 +369,7 @@ nav .btn a {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 576px) {
-  #blogArticles h2 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.32px;
-  }
 
-  #blogArticles .flex {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  /* .all_blog .blog {
-      width: calc(50% - 10px);
-    } */
-}
 
 
 
