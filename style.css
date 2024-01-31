@@ -61,6 +61,59 @@ nav .btn a {
   font-weight: 600;
 }
 
+/*-------------------- services section --------------------*/
+#services{
+  margin: 96px 0 60px 0;
+}
+#services .container .flex {
+  align-items: flex-start;
+}
+
+#services .service_text {
+  margin: 16px 0;
+}
+
+#services .container h2 {
+  color: #333461;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.48px;
+  width: 576px;
+}
+
+#services .service_right {
+  width: 576px;
+}
+
+#services .service_right p {
+  color: #4A556C;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.services_cart .cart {
+  width: 380px;
+  padding: 40px;
+}
+
+.services_cart .cart h3 {
+  color: #041434;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+  margin: 32px 0 16px 0;
+}
+
+.services_cart .cart p {
+  color: var(--Gray-800, #4A556C);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+}
+
 /*-------------------- clients review section --------------------*/
 #clients_review {
   background-color: #FAF8F6;
@@ -106,6 +159,7 @@ nav .btn a {
   width: 69px;
   height: 70px;
 }
+
 #clients_review .cart .star {
   margin-top: 15px;
 }
