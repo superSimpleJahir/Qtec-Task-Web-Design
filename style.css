@@ -61,6 +61,55 @@ nav .btn a {
   font-weight: 600;
 }
 
+/*-------------------- clients review section --------------------*/
+#clients_review {
+  background-color: #FAF8F6;
+  padding: 120px 0 220px 0;
+}
+
+#clients_review h1 {
+  color: #333461;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.48px;
+  margin-bottom: 37px;
+}
+
+#clients_review .review_cart {
+  gap: 37px;
+}
+
+#clients_review .review_cart .cart {
+  background: #FFF;
+  box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+  padding: 48px;
+}
+
+#clients_review .cart p {
+  color: #4A556C;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+}
+
+#clients_review .cart h5 {
+  color: #333461;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+  margin: 15px 0;
+}
+
+#clients_review .cart .img {
+  width: 69px;
+  height: 70px;
+}
+#clients_review .cart .star {
+  margin-top: 15px;
+}
+
 /*-------------------- Blogs section --------------------*/
 #blogArticles {
   margin: 97px auto 65px auto;
