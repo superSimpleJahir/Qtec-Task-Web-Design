@@ -74,7 +74,6 @@
     display: flex;
     flex-direction: column;
     margin-left: -25px;
-    padding-left: 40px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
     overflow: scroll;
@@ -84,7 +83,7 @@
     margin-bottom: 1.8rem;
     font-size: 1.1rem;
     font-weight: 500;
-    width: 240px;
+    width: 190px;
   }
 
   .logo {
@@ -110,14 +109,115 @@
     transform: rotate(-45deg);
   }
 
-  /*------------------- Blog Articles  section -------------------*/
-  #blogArticles h2 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.32px;
+  /*------------ services ,clients review, Blog Articles section ------------ */
+
+  #hero .flex,
+  #services .flex,
+  #clients_review .flex,
+  #blogArticles .flex {
+    flex-direction: column;
+    gap: 30px;
   }
 
-  #blogArticles .flex {
+  #services .container .flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #services .container h2,
+  .hero_left h1 {
+    text-align: start;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .hero_left {
+    width: 100%;
+  }
+
+  .hero_left .btn {
+    width: 100%;
+  }
+
+  #hero {
+    padding-top: 0;
+  }
+
+  .hero_right .hero_card,
+  .hero_vector {
+    display: none;
+  }
+
+  .hero_right>img {
+    padding-right: 0;
+  }
+
+  #services .service_right {
+    width: 100%;
+    text-align: start;
+  }
+
+  /*------------------- clients review section -------------------*/
+  #clients_review .flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #clients_review .review_cart .cart {
+    padding: 20px;
+  }
+
+  #clients_review h1 {
+    text-align: start;
+    font-size: 40px;
+  }
+
+  #clients_review {
+    padding: 60px 0 0 0;
+  }
+
+  /*-------------------   section -------------------*/
+  #blogArticles h2 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -0.32px;
+    text-align: start;
+
+  }
+
+  #online_session .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #online_session .online_session_left {
+    margin-left: 0;
+  }
+
+  #online_session {
+    margin-bottom: 20px;
+  }
+
+  .online_session_left .btn {
+    width: 100%;
+  }
+
+  #top_footer_section .top_footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .top_footer .right .btn {
+    display: inline-block;
+    margin: 10px 0 0 0;
+  }
+
+  .top_footer .right input {
+    width: 100%;
+  }
+
+  #main_footer .flex {
     flex-direction: column;
     gap: 30px;
   }
