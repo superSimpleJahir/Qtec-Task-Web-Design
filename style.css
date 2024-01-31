@@ -236,6 +236,44 @@ nav .btn a {
 
 
 
-/*-------------------- nav section --------------------*/
+/*-------------------- main footer section --------------------*/
+
+#main_footer {
+  margin: 64px 0 48px 0;
+}
+
+#main_footer .flex {
+  align-items: flex-start;
+}
+
+#main_footer .footer_left p {
+  color: rgba(74, 85, 108, 0.50);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 32px;
+}
+
+#main_footer .footer_middle h4,
+#main_footer .footer_right h4 {
+  color: #333461;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+#main_footer .footer_middle ul li,
+#main_footer .footer_right ul li {
+  margin-bottom: 12px;
+}
+
+#main_footer .footer_middle ul a,
+#main_footer .footer_right ul a,
+#main_footer .footer_right ul li {
+  color: rgba(74, 85, 108, 0.50);
+  font-size: 16px;
+}
+
+
+
 /*-------------------- nav section --------------------*/
 /*-------------------- nav section --------------------*/
