@@ -369,6 +369,83 @@ a {
   font-size: 14px;
 }
 
+/*-------------------- Blogs section --------------------*/
+#free_guide_section {
+  padding: 140px 0;
+}
+
+#free_guide_section .flex {}
+
+#free_guide_section .flex .free_guide_left {
+  width: 550px;
+}
+
+#free_guide_section .free_guide_left h2 {
+  color: #333461;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.48px;
+}
+
+#free_guide_section .free_guide_left p {
+  color: #4A556C;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 22px 0;
+}
+
+#free_guide_section .free_guide_left p span {
+  color: #4A556C;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: normal;
+  display: block;
+}
+
+#free_guide_section .free_guide_left .btn {
+  width: 250px;
+  color: #FFF;
+  font-size: 14px;
+  border: none;
+}
+
+#free_guide_section .free_guide_right {}
+
+#free_guide_section .free_guide_right .frame {
+  background: linear-gradient(210deg, #333461 -85.62%, #483D8B 25.45%, #353565 165.27%);
+  width: 446px;
+  height: 581px;
+  position: relative;
+}
+
+#free_guide_section .free_guide_right .frame .circel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFf;
+  position: absolute;
+  background: #20AD96;
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  top: -35px;
+  right: -32px;
+}
+
+#free_guide_section .free_guide_right .frame .img1 {
+  position: absolute;
+  top: 50px;
+  left: 38px;
+  z-index: 1;
+}
+
+#free_guide_section .free_guide_right .frame .img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 
 
@@ -466,9 +543,6 @@ a {
   margin-left: 16px;
 }
 
-
-
-
 /*-------------------- main footer section --------------------*/
 
 #main_footer {
@@ -505,8 +579,3 @@ a {
   color: rgba(74, 85, 108, 0.50);
   font-size: 16px;
 }
-
-
-
-/*-------------------- nav section --------------------*/
-/*-------------------- nav section --------------------*/

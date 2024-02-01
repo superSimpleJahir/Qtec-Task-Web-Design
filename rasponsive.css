@@ -114,7 +114,11 @@
   #hero .flex,
   #services .flex,
   #clients_review .flex,
-  #blogArticles .flex {
+  #blogArticles .flex,
+  #online_session .container,
+  #top_footer_section .top_footer,
+  #main_footer .flex,
+  #free_guide_section .flex {
     flex-direction: column;
     gap: 30px;
   }
@@ -125,17 +129,25 @@
   }
 
   #services .container h2,
-  .hero_left h1 {
+  .hero_left h1,
+  #free_guide_section .free_guide_left h2 {
     text-align: start;
     font-size: 35px;
     width: 100%;
   }
 
-  .hero_left {
-    width: 100%;
-  }
+  /* #free_guide_section .free_guide_left h2 {
+    color: #333461;
+    font-size: px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+  } */
 
-  .hero_left .btn {
+  .hero_left,
+  .hero_left .btn,
+  .online_session_left .btn,
+  .top_footer .right input {
     width: 100%;
   }
 
@@ -158,10 +170,6 @@
   }
 
   /*------------------- clients review section -------------------*/
-  #clients_review .flex {
-    flex-direction: column;
-    gap: 30px;
-  }
 
   #clients_review .review_cart .cart {
     padding: 20px;
@@ -176,20 +184,31 @@
     padding: 60px 0 0 0;
   }
 
-  /*-------------------   section -------------------*/
+  #free_guide_section .flex .free_guide_left {
+    width: 100%;
+  }
+
+  #free_guide_section .free_guide_left .btn {
+    width: 100%;
+  }
+
+  #free_guide_section .free_guide_right .frame {
+    margin-top: 30px;
+    width: 400px;
+  }
+
+  #free_guide_section {
+    padding: 40px 0;
+  }
+
   #blogArticles h2 {
     width: 100%;
     font-size: 40px;
     line-height: 56px;
     letter-spacing: -0.32px;
     text-align: start;
-
   }
 
-  #online_session .container {
-    flex-direction: column;
-    gap: 30px;
-  }
 
   #online_session .online_session_left {
     margin-left: 0;
@@ -199,28 +218,13 @@
     margin-bottom: 20px;
   }
 
-  .online_session_left .btn {
-    width: 100%;
-  }
-
-  #top_footer_section .top_footer {
-    flex-direction: column;
-    gap: 30px;
-  }
-
   .top_footer .right .btn {
     display: inline-block;
     margin: 10px 0 0 0;
   }
 
-  .top_footer .right input {
-    width: 100%;
-  }
 
-  #main_footer .flex {
-    flex-direction: column;
-    gap: 30px;
-  }
+
 
 }
 
